@@ -31,8 +31,10 @@
     <script src="js/main.js"></script>
     
     <script type="text/javascript" id="todoItemTemplate">
-        <input type="checkbox" {{#completed}}checked{{/completed}} id="toggle"></input>
-        {{title}}
+        <label>
+            <input type="checkbox" {{#completed}}checked{{/completed}} id="toggle"></input>
+            {{title}}
+        </label>
         <button id = "delete">Delete</button>
     </script>
 </body>
