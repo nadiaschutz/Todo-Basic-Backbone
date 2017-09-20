@@ -23,6 +23,7 @@ body, p { font-size: 24px; }
 
 #todoItems li.completed > label {
     text-decoration: line-through;
+    font-style: italic;
 }
 #newTodoItem{
     padding: 10px;
